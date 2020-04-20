@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>1E5036BC-7D81-4B9B-BDB8-7308AB78A312</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1E5036BC-7D81-4B9B-BDB8-7308AB78A312.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>try project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>try</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug try</string>
+			<key>timeStartedRecording</key>
+			<real>606600926.703017</real>
+			<key>timeStoppedRecording</key>
+			<real>606600960.99030805</real>
+			<key>title</key>
+			<string>Debug try</string>
+			<key>uniqueIdentifier</key>
+			<string>1E5036BC-7D81-4B9B-BDB8-7308AB78A312</string>
+		</dict>
+		<key>B8E98C9C-9D14-4A6B-B9C6-E18933373CBB</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B8E98C9C-9D14-4A6B-B9C6-E18933373CBB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>try project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>try</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug try</string>
+			<key>timeStartedRecording</key>
+			<real>606603947.39294302</real>
+			<key>timeStoppedRecording</key>
+			<real>606603994.46487796</real>
+			<key>title</key>
+			<string>Debug try</string>
+			<key>uniqueIdentifier</key>
+			<string>B8E98C9C-9D14-4A6B-B9C6-E18933373CBB</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

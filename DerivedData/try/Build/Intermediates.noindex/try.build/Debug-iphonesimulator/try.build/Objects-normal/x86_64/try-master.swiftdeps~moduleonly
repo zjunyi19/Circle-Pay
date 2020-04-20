@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "5424cddc902828b7bc50306285b70658"
+build_time: [1584911194, 654269000]
+inputs:
+  "/Users/Palash/Downloads/EECS441_UI-master-3/try/MoneyTrackViewController.swift": [1584900070, 0]
+  "/Users/Palash/Downloads/EECS441_UI-master-3/try/ViewController.swift": [1584900070, 0]
+  "/Users/Palash/Downloads/EECS441_UI-master-3/try/SetBudgetViewController.swift": [1584900070, 0]
+  "/Users/Palash/Downloads/EECS441_UI-master-3/try/AppDelegate.swift": [1584900070, 0]
+  "/Users/Palash/Downloads/EECS441_UI-master-3/try/MoneySpentViewController.swift": !private [1584911194, 382457555]
+  "/Users/Palash/Downloads/EECS441_UI-master-3/try/SceneDelegate.swift": [1584900070, 0]

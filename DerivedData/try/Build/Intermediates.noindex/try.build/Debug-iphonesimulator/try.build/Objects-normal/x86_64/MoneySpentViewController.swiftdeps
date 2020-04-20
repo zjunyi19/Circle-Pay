@@ -1,0 +1,929 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "canReceive"
+- "MoneySpentViewController"
+provides-nominal:
+- "3try10canReceiveP"
+- "3try24MoneySpentViewControllerC"
+provides-member:
+- ["3try10canReceiveP", ""]
+- ["3try24MoneySpentViewControllerC", ""]
+provides-dynamic-lookup:
+- "BackButton"
+- "SubmitClicked"
+- "activitySpinner"
+- "recordingBtn"
+- "spendingTxt"
+- "viewDidLoad"
+- "warningLabel"
+depends-top-level:
+- !private "<="
+- !private "=="
+- !private "??"
+- "AVAudioPlayer"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Bundle"
+- "Double"
+- "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "MoneySpentViewController"
+- !private "SFSpeechRecognizer"
+- !private "SFSpeechRecognizerAuthorizationStatus"
+- !private "SFSpeechURLRecognitionRequest"
+- "StringLiteralType"
+- "UIActivityIndicatorView"
+- "UILabel"
+- "UITextField"
+- "UIViewController"
+- "UnicodeScalarType"
+- "canReceive"
+- !private "print"
+depends-member:
+- !private ["So13AVAudioPlayerC", "delegate"]
+- !private ["So13AVAudioPlayerC", "init"]
+- !private ["So13AVAudioPlayerC", "play"]
+- !private ["So13AVAudioPlayerC", "stop"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["SB", "init"]
+- !private ["So8NSBundleC", "main"]
+- !private ["So8NSBundleC", "url"]
+- !private ["So15CALayerDelegateP", "isHidden"]
+- !private ["So15CALayerDelegateP", "startAnimating"]
+- !private ["So15CALayerDelegateP", "stopAnimating"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "AVAudioPlayer"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "SFSpeechRecognizer"]
+- !private ["s7CVarArgP", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["s7CVarArgP", "SFSpeechURLRecognitionRequest"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "activitySpinner"]
+- !private ["s7CVarArgP", "audioPlayer"]
+- !private ["s7CVarArgP", "bestTranscription"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "formattedString"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isHidden"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "play"]
+- !private ["s7CVarArgP", "popViewController"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "recognitionTask"]
+- !private ["s7CVarArgP", "requestAuthorization"]
+- !private ["s7CVarArgP", "requestSpeechAuth"]
+- !private ["s7CVarArgP", "spendingTxt"]
+- !private ["s7CVarArgP", "startAnimating"]
+- !private ["s7CVarArgP", "stop"]
+- !private ["s7CVarArgP", "stopAnimating"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "url"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "warningLabel"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AVAudioPlayer"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "SFSpeechRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "SFSpeechURLRecognitionRequest"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "activitySpinner"]
+- !private ["s28CustomDebugStringConvertibleP", "audioPlayer"]
+- !private ["s28CustomDebugStringConvertibleP", "bestTranscription"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "formattedString"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "play"]
+- !private ["s28CustomDebugStringConvertibleP", "popViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "recognitionTask"]
+- !private ["s28CustomDebugStringConvertibleP", "requestAuthorization"]
+- !private ["s28CustomDebugStringConvertibleP", "requestSpeechAuth"]
+- !private ["s28CustomDebugStringConvertibleP", "spendingTxt"]
+- !private ["s28CustomDebugStringConvertibleP", "startAnimating"]
+- !private ["s28CustomDebugStringConvertibleP", "stop"]
+- !private ["s28CustomDebugStringConvertibleP", "stopAnimating"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "warningLabel"]
+- !private ["s17CustomReflectableP", "delegate"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isHidden"]
+- !private ["s17CustomReflectableP", "startAnimating"]
+- !private ["s17CustomReflectableP", "stopAnimating"]
+- !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "AVAudioPlayer"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "SFSpeechRecognizer"]
+- !private ["s23CustomStringConvertibleP", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["s23CustomStringConvertibleP", "SFSpeechURLRecognitionRequest"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "activitySpinner"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "audioPlayer"]
+- !private ["s23CustomStringConvertibleP", "bestTranscription"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "formattedString"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isHidden"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "play"]
+- !private ["s23CustomStringConvertibleP", "popViewController"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "recognitionTask"]
+- !private ["s23CustomStringConvertibleP", "requestAuthorization"]
+- !private ["s23CustomStringConvertibleP", "requestSpeechAuth"]
+- !private ["s23CustomStringConvertibleP", "spendingTxt"]
+- !private ["s23CustomStringConvertibleP", "startAnimating"]
+- !private ["s23CustomStringConvertibleP", "stop"]
+- !private ["s23CustomStringConvertibleP", "stopAnimating"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "warningLabel"]
+- !private ["Se", "delegate"]
+- !private ["Se", "init"]
+- !private ["Se", "isHidden"]
+- !private ["Se", "startAnimating"]
+- !private ["Se", "stopAnimating"]
+- !private ["Se", "text"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["Sd", "init"]
+- !private ["SE", "delegate"]
+- !private ["SE", "init"]
+- !private ["SE", "isHidden"]
+- !private ["SE", "startAnimating"]
+- !private ["SE", "stopAnimating"]
+- !private ["SE", "text"]
+- !private ["SQ", "AVAudioPlayer"]
+- !private ["SQ", "Bundle"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "SFSpeechRecognizer"]
+- !private ["SQ", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["SQ", "SFSpeechURLRecognitionRequest"]
+- ["SQ", ""]
+- !private ["SQ", "activitySpinner"]
+- !private ["SQ", "audioPlayer"]
+- !private ["SQ", "authorized"]
+- !private ["SQ", "bestTranscription"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "dismiss"]
+- !private ["SQ", "formattedString"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isHidden"]
+- !private ["SQ", "main"]
+- !private ["SQ", "navigationController"]
+- !private ["SQ", "play"]
+- !private ["SQ", "popViewController"]
+- !private ["SQ", "print"]
+- !private ["SQ", "recognitionTask"]
+- !private ["SQ", "requestAuthorization"]
+- !private ["SQ", "requestSpeechAuth"]
+- !private ["SQ", "spendingTxt"]
+- !private ["SQ", "startAnimating"]
+- !private ["SQ", "stop"]
+- !private ["SQ", "stopAnimating"]
+- !private ["SQ", "text"]
+- !private ["SQ", "url"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "warningLabel"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "delegate"]
+- !private ["s23ExpressibleByNilLiteralP", "isHidden"]
+- !private ["s23ExpressibleByNilLiteralP", "startAnimating"]
+- !private ["s23ExpressibleByNilLiteralP", "stopAnimating"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["SF", "init"]
+- !private ["SH", "AVAudioPlayer"]
+- !private ["SH", "Bundle"]
+- !private ["SH", "Double"]
+- !private ["SH", "SFSpeechRecognizer"]
+- !private ["SH", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["SH", "SFSpeechURLRecognitionRequest"]
+- ["SH", ""]
+- !private ["SH", "activitySpinner"]
+- !private ["SH", "audioPlayer"]
+- !private ["SH", "authorized"]
+- !private ["SH", "bestTranscription"]
+- !private ["SH", "delegate"]
+- !private ["SH", "dismiss"]
+- !private ["SH", "formattedString"]
+- !private ["SH", "init"]
+- !private ["SH", "isHidden"]
+- !private ["SH", "main"]
+- !private ["SH", "navigationController"]
+- !private ["SH", "play"]
+- !private ["SH", "popViewController"]
+- !private ["SH", "print"]
+- !private ["SH", "recognitionTask"]
+- !private ["SH", "requestAuthorization"]
+- !private ["SH", "requestSpeechAuth"]
+- !private ["SH", "spendingTxt"]
+- !private ["SH", "startAnimating"]
+- !private ["SH", "stop"]
+- !private ["SH", "stopAnimating"]
+- !private ["SH", "text"]
+- !private ["SH", "url"]
+- !private ["SH", "viewDidLoad"]
+- !private ["SH", "warningLabel"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["3try24MoneySpentViewControllerC", "AVAudioPlayer"]
+- ["3try24MoneySpentViewControllerC", "BackButton"]
+- ["3try24MoneySpentViewControllerC", "Bool"]
+- !private ["3try24MoneySpentViewControllerC", "Bundle"]
+- !private ["3try24MoneySpentViewControllerC", "Double"]
+- !private ["3try24MoneySpentViewControllerC", "SFSpeechRecognizer"]
+- !private ["3try24MoneySpentViewControllerC", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["3try24MoneySpentViewControllerC", "SFSpeechURLRecognitionRequest"]
+- ["3try24MoneySpentViewControllerC", "SubmitClicked"]
+- ["3try24MoneySpentViewControllerC", "UIActivityIndicatorView"]
+- ["3try24MoneySpentViewControllerC", "UILabel"]
+- ["3try24MoneySpentViewControllerC", "UITextField"]
+- ["3try24MoneySpentViewControllerC", "activitySpinner"]
+- ["3try24MoneySpentViewControllerC", "audioPlayer"]
+- ["3try24MoneySpentViewControllerC", "audioPlayerDidFinishPlaying"]
+- ["3try24MoneySpentViewControllerC", "canReceive"]
+- ["3try24MoneySpentViewControllerC", "deinit"]
+- ["3try24MoneySpentViewControllerC", "delegate"]
+- !private ["3try24MoneySpentViewControllerC", "dismiss"]
+- ["3try24MoneySpentViewControllerC", "init"]
+- !private ["3try24MoneySpentViewControllerC", "navigationController"]
+- !private ["3try24MoneySpentViewControllerC", "print"]
+- ["3try24MoneySpentViewControllerC", "recordingBtn"]
+- ["3try24MoneySpentViewControllerC", "requestSpeechAuth"]
+- ["3try24MoneySpentViewControllerC", "spendingTxt"]
+- ["3try24MoneySpentViewControllerC", "spendingValueFinal"]
+- ["3try24MoneySpentViewControllerC", "viewDidLoad"]
+- ["3try24MoneySpentViewControllerC", "warningLabel"]
+- !private ["So8NSCodingP", "AVAudioPlayer"]
+- !private ["So8NSCodingP", "Bundle"]
+- !private ["So8NSCodingP", "Double"]
+- !private ["So8NSCodingP", "SFSpeechRecognizer"]
+- !private ["So8NSCodingP", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["So8NSCodingP", "SFSpeechURLRecognitionRequest"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "activitySpinner"]
+- !private ["So8NSCodingP", "audioPlayer"]
+- !private ["So8NSCodingP", "bestTranscription"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "formattedString"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isHidden"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "popViewController"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "requestSpeechAuth"]
+- !private ["So8NSCodingP", "spendingTxt"]
+- !private ["So8NSCodingP", "startAnimating"]
+- !private ["So8NSCodingP", "stopAnimating"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So8NSCodingP", "warningLabel"]
+- !private ["So9NSCopyingP", "bestTranscription"]
+- !private ["So9NSCopyingP", "formattedString"]
+- !private ["So26NSExtensionRequestHandlingP", "AVAudioPlayer"]
+- !private ["So26NSExtensionRequestHandlingP", "Bundle"]
+- !private ["So26NSExtensionRequestHandlingP", "Double"]
+- !private ["So26NSExtensionRequestHandlingP", "SFSpeechRecognizer"]
+- !private ["So26NSExtensionRequestHandlingP", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["So26NSExtensionRequestHandlingP", "SFSpeechURLRecognitionRequest"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "activitySpinner"]
+- !private ["So26NSExtensionRequestHandlingP", "audioPlayer"]
+- !private ["So26NSExtensionRequestHandlingP", "delegate"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "popViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "requestSpeechAuth"]
+- !private ["So26NSExtensionRequestHandlingP", "spendingTxt"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "warningLabel"]
+- ["So8NSObjectC", "AVAudioPlayer"]
+- ["So8NSObjectC", "BackButton"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Bundle"]
+- !private ["So8NSObjectC", "Double"]
+- !private ["So8NSObjectC", "SFSpeechRecognizer"]
+- !private ["So8NSObjectC", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["So8NSObjectC", "SFSpeechURLRecognitionRequest"]
+- ["So8NSObjectC", "SubmitClicked"]
+- ["So8NSObjectC", "UIActivityIndicatorView"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "activitySpinner"]
+- ["So8NSObjectC", "audioPlayer"]
+- ["So8NSObjectC", "audioPlayerDidFinishPlaying"]
+- !private ["So8NSObjectC", "bestTranscription"]
+- ["So8NSObjectC", "canReceive"]
+- ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "dismiss"]
+- !private ["So8NSObjectC", "formattedString"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isHidden"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "navigationController"]
+- !private ["So8NSObjectC", "play"]
+- !private ["So8NSObjectC", "popViewController"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "recognitionTask"]
+- ["So8NSObjectC", "recordingBtn"]
+- !private ["So8NSObjectC", "requestAuthorization"]
+- ["So8NSObjectC", "requestSpeechAuth"]
+- ["So8NSObjectC", "spendingTxt"]
+- ["So8NSObjectC", "spendingValueFinal"]
+- !private ["So8NSObjectC", "startAnimating"]
+- !private ["So8NSObjectC", "stop"]
+- !private ["So8NSObjectC", "stopAnimating"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "url"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectC", "warningLabel"]
+- !private ["So8NSObjectP", "AVAudioPlayer"]
+- !private ["So8NSObjectP", "Bundle"]
+- !private ["So8NSObjectP", "Double"]
+- !private ["So8NSObjectP", "SFSpeechRecognizer"]
+- !private ["So8NSObjectP", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["So8NSObjectP", "SFSpeechURLRecognitionRequest"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activitySpinner"]
+- !private ["So8NSObjectP", "audioPlayer"]
+- !private ["So8NSObjectP", "bestTranscription"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "dismiss"]
+- !private ["So8NSObjectP", "formattedString"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isHidden"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "navigationController"]
+- !private ["So8NSObjectP", "play"]
+- !private ["So8NSObjectP", "popViewController"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "recognitionTask"]
+- !private ["So8NSObjectP", "requestAuthorization"]
+- !private ["So8NSObjectP", "requestSpeechAuth"]
+- !private ["So8NSObjectP", "spendingTxt"]
+- !private ["So8NSObjectP", "startAnimating"]
+- !private ["So8NSObjectP", "stop"]
+- !private ["So8NSObjectP", "stopAnimating"]
+- !private ["So8NSObjectP", "text"]
+- !private ["So8NSObjectP", "url"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So8NSObjectP", "warningLabel"]
+- !private ["So14NSSecureCodingP", "bestTranscription"]
+- !private ["So14NSSecureCodingP", "formattedString"]
+- !private ["Sj", "init"]
+- !private ["Sq", "delegate"]
+- !private ["Sq", "isHidden"]
+- !private ["Sq", "startAnimating"]
+- !private ["Sq", "stopAnimating"]
+- !private ["Sq", "text"]
+- !private ["SY", "authorized"]
+- !private ["So26SFSpeechRecognitionRequestC", "init"]
+- !private ["So25SFSpeechRecognitionResultC", "bestTranscription"]
+- !private ["So18SFSpeechRecognizerC", "init"]
+- !private ["So18SFSpeechRecognizerC", "recognitionTask"]
+- !private ["So18SFSpeechRecognizerC", "requestAuthorization"]
+- !private ["So37SFSpeechRecognizerAuthorizationStatusV", "authorized"]
+- !private ["So29SFSpeechURLRecognitionRequestC", "init"]
+- !private ["So15SFTranscriptionC", "formattedString"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isHidden"]
+- !private ["So29UIAccessibilityIdentificationP", "startAnimating"]
+- !private ["So29UIAccessibilityIdentificationP", "stopAnimating"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So23UIActivityIndicatorViewC", "isHidden"]
+- !private ["So23UIActivityIndicatorViewC", "startAnimating"]
+- !private ["So23UIActivityIndicatorViewC", "stopAnimating"]
+- !private ["So12UIAppearanceP", "isHidden"]
+- !private ["So12UIAppearanceP", "startAnimating"]
+- !private ["So12UIAppearanceP", "stopAnimating"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "AVAudioPlayer"]
+- !private ["So21UIAppearanceContainerP", "Bundle"]
+- !private ["So21UIAppearanceContainerP", "Double"]
+- !private ["So21UIAppearanceContainerP", "SFSpeechRecognizer"]
+- !private ["So21UIAppearanceContainerP", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["So21UIAppearanceContainerP", "SFSpeechURLRecognitionRequest"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "activitySpinner"]
+- !private ["So21UIAppearanceContainerP", "audioPlayer"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isHidden"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "popViewController"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "requestSpeechAuth"]
+- !private ["So21UIAppearanceContainerP", "spendingTxt"]
+- !private ["So21UIAppearanceContainerP", "startAnimating"]
+- !private ["So21UIAppearanceContainerP", "stopAnimating"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So21UIAppearanceContainerP", "warningLabel"]
+- !private ["So18UIContentContainerP", "AVAudioPlayer"]
+- !private ["So18UIContentContainerP", "Bundle"]
+- !private ["So18UIContentContainerP", "Double"]
+- !private ["So18UIContentContainerP", "SFSpeechRecognizer"]
+- !private ["So18UIContentContainerP", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["So18UIContentContainerP", "SFSpeechURLRecognitionRequest"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "activitySpinner"]
+- !private ["So18UIContentContainerP", "audioPlayer"]
+- !private ["So18UIContentContainerP", "delegate"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "popViewController"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "requestSpeechAuth"]
+- !private ["So18UIContentContainerP", "spendingTxt"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "warningLabel"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "isHidden"]
+- !private ["So17UICoordinateSpaceP", "startAnimating"]
+- !private ["So17UICoordinateSpaceP", "stopAnimating"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "isHidden"]
+- !private ["So13UIDynamicItemP", "startAnimating"]
+- !private ["So13UIDynamicItemP", "stopAnimating"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "AVAudioPlayer"]
+- !private ["So18UIFocusEnvironmentP", "Bundle"]
+- !private ["So18UIFocusEnvironmentP", "Double"]
+- !private ["So18UIFocusEnvironmentP", "SFSpeechRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["So18UIFocusEnvironmentP", "SFSpeechURLRecognitionRequest"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "activitySpinner"]
+- !private ["So18UIFocusEnvironmentP", "audioPlayer"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isHidden"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "popViewController"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "requestSpeechAuth"]
+- !private ["So18UIFocusEnvironmentP", "spendingTxt"]
+- !private ["So18UIFocusEnvironmentP", "startAnimating"]
+- !private ["So18UIFocusEnvironmentP", "stopAnimating"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "warningLabel"]
+- !private ["So11UIFocusItemP", "isHidden"]
+- !private ["So11UIFocusItemP", "startAnimating"]
+- !private ["So11UIFocusItemP", "stopAnimating"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "isHidden"]
+- !private ["So20UIFocusItemContainerP", "startAnimating"]
+- !private ["So20UIFocusItemContainerP", "stopAnimating"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So7UILabelC", "text"]
+- !private ["So24UILargeContentViewerItemP", "isHidden"]
+- !private ["So24UILargeContentViewerItemP", "startAnimating"]
+- !private ["So24UILargeContentViewerItemP", "stopAnimating"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- !private ["So22UINavigationControllerC", "popViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "AVAudioPlayer"]
+- !private ["So30UIPasteConfigurationSupportingP", "Bundle"]
+- !private ["So30UIPasteConfigurationSupportingP", "Double"]
+- !private ["So30UIPasteConfigurationSupportingP", "SFSpeechRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["So30UIPasteConfigurationSupportingP", "SFSpeechURLRecognitionRequest"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "activitySpinner"]
+- !private ["So30UIPasteConfigurationSupportingP", "audioPlayer"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHidden"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "popViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "requestSpeechAuth"]
+- !private ["So30UIPasteConfigurationSupportingP", "spendingTxt"]
+- !private ["So30UIPasteConfigurationSupportingP", "startAnimating"]
+- !private ["So30UIPasteConfigurationSupportingP", "stopAnimating"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "warningLabel"]
+- ["So11UIResponderC", "AVAudioPlayer"]
+- ["So11UIResponderC", "BackButton"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "Bundle"]
+- !private ["So11UIResponderC", "Double"]
+- !private ["So11UIResponderC", "SFSpeechRecognizer"]
+- !private ["So11UIResponderC", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["So11UIResponderC", "SFSpeechURLRecognitionRequest"]
+- ["So11UIResponderC", "SubmitClicked"]
+- ["So11UIResponderC", "UIActivityIndicatorView"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "UITextField"]
+- ["So11UIResponderC", "activitySpinner"]
+- ["So11UIResponderC", "audioPlayer"]
+- ["So11UIResponderC", "audioPlayerDidFinishPlaying"]
+- ["So11UIResponderC", "canReceive"]
+- ["So11UIResponderC", "delegate"]
+- !private ["So11UIResponderC", "dismiss"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isHidden"]
+- !private ["So11UIResponderC", "navigationController"]
+- !private ["So11UIResponderC", "popViewController"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "recordingBtn"]
+- ["So11UIResponderC", "requestSpeechAuth"]
+- ["So11UIResponderC", "spendingTxt"]
+- ["So11UIResponderC", "spendingValueFinal"]
+- !private ["So11UIResponderC", "startAnimating"]
+- !private ["So11UIResponderC", "stopAnimating"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So11UIResponderC", "warningLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "AVAudioPlayer"]
+- !private ["So30UIResponderStandardEditActionsP", "Bundle"]
+- !private ["So30UIResponderStandardEditActionsP", "Double"]
+- !private ["So30UIResponderStandardEditActionsP", "SFSpeechRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["So30UIResponderStandardEditActionsP", "SFSpeechURLRecognitionRequest"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "activitySpinner"]
+- !private ["So30UIResponderStandardEditActionsP", "audioPlayer"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isHidden"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "popViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "requestSpeechAuth"]
+- !private ["So30UIResponderStandardEditActionsP", "spendingTxt"]
+- !private ["So30UIResponderStandardEditActionsP", "startAnimating"]
+- !private ["So30UIResponderStandardEditActionsP", "stopAnimating"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "warningLabel"]
+- !private ["So16UIStateRestoringP", "AVAudioPlayer"]
+- !private ["So16UIStateRestoringP", "Bundle"]
+- !private ["So16UIStateRestoringP", "Double"]
+- !private ["So16UIStateRestoringP", "SFSpeechRecognizer"]
+- !private ["So16UIStateRestoringP", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["So16UIStateRestoringP", "SFSpeechURLRecognitionRequest"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "activitySpinner"]
+- !private ["So16UIStateRestoringP", "audioPlayer"]
+- !private ["So16UIStateRestoringP", "delegate"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "popViewController"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "requestSpeechAuth"]
+- !private ["So16UIStateRestoringP", "spendingTxt"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "warningLabel"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So18UITraitEnvironmentP", "AVAudioPlayer"]
+- !private ["So18UITraitEnvironmentP", "Bundle"]
+- !private ["So18UITraitEnvironmentP", "Double"]
+- !private ["So18UITraitEnvironmentP", "SFSpeechRecognizer"]
+- !private ["So18UITraitEnvironmentP", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["So18UITraitEnvironmentP", "SFSpeechURLRecognitionRequest"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "activitySpinner"]
+- !private ["So18UITraitEnvironmentP", "audioPlayer"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isHidden"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "popViewController"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "requestSpeechAuth"]
+- !private ["So18UITraitEnvironmentP", "spendingTxt"]
+- !private ["So18UITraitEnvironmentP", "startAnimating"]
+- !private ["So18UITraitEnvironmentP", "stopAnimating"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "warningLabel"]
+- !private ["So23UIUserActivityRestoringP", "AVAudioPlayer"]
+- !private ["So23UIUserActivityRestoringP", "Bundle"]
+- !private ["So23UIUserActivityRestoringP", "Double"]
+- !private ["So23UIUserActivityRestoringP", "SFSpeechRecognizer"]
+- !private ["So23UIUserActivityRestoringP", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["So23UIUserActivityRestoringP", "SFSpeechURLRecognitionRequest"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "activitySpinner"]
+- !private ["So23UIUserActivityRestoringP", "audioPlayer"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "dismiss"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isHidden"]
+- !private ["So23UIUserActivityRestoringP", "navigationController"]
+- !private ["So23UIUserActivityRestoringP", "popViewController"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "requestSpeechAuth"]
+- !private ["So23UIUserActivityRestoringP", "spendingTxt"]
+- !private ["So23UIUserActivityRestoringP", "startAnimating"]
+- !private ["So23UIUserActivityRestoringP", "stopAnimating"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "warningLabel"]
+- !private ["So6UIViewC", "isHidden"]
+- !private ["So6UIViewC", "startAnimating"]
+- !private ["So6UIViewC", "stopAnimating"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "AVAudioPlayer"]
+- ["So16UIViewControllerC", "BackButton"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "Bundle"]
+- !private ["So16UIViewControllerC", "Double"]
+- !private ["So16UIViewControllerC", "SFSpeechRecognizer"]
+- !private ["So16UIViewControllerC", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["So16UIViewControllerC", "SFSpeechURLRecognitionRequest"]
+- ["So16UIViewControllerC", "SubmitClicked"]
+- ["So16UIViewControllerC", "UIActivityIndicatorView"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", "UITextField"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "activitySpinner"]
+- ["So16UIViewControllerC", "audioPlayer"]
+- ["So16UIViewControllerC", "audioPlayerDidFinishPlaying"]
+- ["So16UIViewControllerC", "canReceive"]
+- ["So16UIViewControllerC", "delegate"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- !private ["So16UIViewControllerC", "popViewController"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "recordingBtn"]
+- ["So16UIViewControllerC", "requestSpeechAuth"]
+- ["So16UIViewControllerC", "spendingTxt"]
+- ["So16UIViewControllerC", "spendingValueFinal"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", "warningLabel"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVAudioPlayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SFSpeechRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SFSpeechURLRecognitionRequest"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activitySpinner"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "audioPlayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bestTranscription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "formattedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "play"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "popViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "recognitionTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestAuthorization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestSpeechAuth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "spendingTxt"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startAnimating"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stop"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopAnimating"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "warningLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AVAudioPlayer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Bundle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Double"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SFSpeechRecognizer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SFSpeechRecognizerAuthorizationStatus"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SFSpeechURLRecognitionRequest"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "activitySpinner"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "audioPlayer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bestTranscription"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dismiss"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "formattedString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isHidden"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "play"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "popViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "recognitionTask"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestAuthorization"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestSpeechAuth"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "spendingTxt"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "startAnimating"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stop"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stopAnimating"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "url"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "warningLabel"]
+- !private ["s21_ObjectiveCBridgeableP", "delegate"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isHidden"]
+- !private ["s21_ObjectiveCBridgeableP", "startAnimating"]
+- !private ["s21_ObjectiveCBridgeableP", "stopAnimating"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isHidden"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "startAnimating"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "stopAnimating"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+- ["3try10canReceiveP", "Double"]
+- ["3try10canReceiveP", "passDataBack"]
+depends-nominal:
+- !private "So13AVAudioPlayerC"
+- !private "s18AdditiveArithmeticP"
+- !private "SB"
+- !private "So8NSBundleC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "Sd"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SF"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- "3try24MoneySpentViewControllerC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- !private "Sq"
+- !private "SY"
+- !private "So26SFSpeechRecognitionRequestC"
+- !private "So25SFSpeechRecognitionResultC"
+- !private "So18SFSpeechRecognizerC"
+- !private "So37SFSpeechRecognizerAuthorizationStatusV"
+- !private "So29SFSpeechURLRecognitionRequestC"
+- !private "So15SFTranscriptionC"
+- !private "s10SIMDScalarP"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So23UIActivityIndicatorViewC"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So10UIKeyInputP"
+- !private "So7UILabelC"
+- !private "So24UILargeContentViewerItemP"
+- !private "So22UINavigationControllerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+- "3try10canReceiveP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMIDI.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreMedia.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/simd.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Speech.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreLocation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreAudio.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/MapKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Speech.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/MapKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Speech.framework/Headers/Speech.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d1fafc30da1f23dead3661d9625b6fdb"
